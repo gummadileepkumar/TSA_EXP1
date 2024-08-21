@@ -17,19 +17,13 @@ To Develop a python program to Plot a time series data (National stock exchange)
 
 
 # PROGRAM:
-
- 
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
-
 file_path = 'infy_stock.csv'
 data = pd.read_csv(file_path)
-
 print(data.head)
-
 data['Date']=pd.to_datetime(data['Date'])
-
 data.set_index('Date',inplace=True)
 plt.plot(data.index,data['Trades'],label='temp')
 plt.title("Daily Minimum Trades")
