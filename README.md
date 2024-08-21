@@ -1,4 +1,4 @@
-## Developed BY: GUMMA DILEEP KUMAR
+## Developed By: GUMMA DILEEP KUMAR
 ## Register No: 212222240032
 ##  Date:  
 
