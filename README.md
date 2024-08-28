@@ -11,7 +11,7 @@ To Develop a python program to Plot a time series data (National stock exchange)
 # ALGORITHM:
 1. Import the required packages like pandas and matplot
 2. Read the dataset using the pandas
-3.Use the data column  for tracking the index. 
+3. Use the data column  for tracking the index. 
 4. Plot the data accordingly Which can be altered monthly, or yearly.
 5. Display the graph.
 
